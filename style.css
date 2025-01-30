@@ -28,14 +28,14 @@ body {
 
 .hero-image {
     
-    width:1500px;
-    height: 800px;
+    width: 70%;;
+    height: 1000px;
 }
 
 .intro {
     text-align: center;
     margin: 20px 0;
-    margin-top: 40px;
+    margin: 50px;
 }
 
 .cta-buttons {
@@ -64,12 +64,17 @@ body {
 .my-bmw, .offers {
     margin: 20px;
     text-align: center;
-    margin-top: 40px;
+    
+    display: flex;
+}
+.offers {
+    margin-bottom: 80px;
 }
 
 .my-bmw img, .offers img {
     max-width: 100%;
     border-radius: 10px;
+    margin-top: 40px;
 }
 
 footer {
@@ -110,4 +115,27 @@ footer {
 
 .offers {
     margin-top: 200px;
+}
+
+
+.my-bmw img{
+    flex-direction: row-reverse;
+    
+}
+
+.my-bmw{
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.offers{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.bmw-pakkumised{
+    padding-left: 50px;
 }
