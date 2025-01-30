@@ -38,6 +38,10 @@ body {
     margin: 50px;
 }
 
+.intro button{
+    border-radius: 5rem;
+}
+
 .cta-buttons {
     display: flex;
     justify-content: center;
@@ -138,4 +142,30 @@ footer {
 
 .bmw-pakkumised{
     padding-left: 50px;
+}
+
+body{
+    background-color: whitesmoke;
+
+}
+.container{
+    background-color: gainsboro;
+    background-position: center;
+
+}
+
+.bmw-pakkumised{
+    background-color:gray;
+    width: 340px;
+    height: 250px;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.my-bmw-rakendus{
+    background-color:gray;
+    width: 350px;
+    height: 180px;
+    border-radius: 2rem;
+    text-align: centre;
 }
