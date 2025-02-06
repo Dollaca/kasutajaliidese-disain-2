@@ -195,6 +195,9 @@ footer {
     height: 400px;
     margin-bottom: 50px;
     padding-bottom: 470px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px ;
 }
 
 .my-bmw-rakendus h2 {
